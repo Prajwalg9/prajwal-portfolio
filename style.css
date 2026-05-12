@@ -134,6 +134,11 @@ body {
     gap: 32px;
 }
 
+.mobile-break {
+    display: none;
+}
+
+
 .nav-links a {
     text-decoration: none;
     color: var(--text-main);
