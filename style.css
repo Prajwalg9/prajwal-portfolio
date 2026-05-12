@@ -1310,3 +1310,63 @@ body {
   30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
   40%, 60% { transform: translate3d(4px, 0, 0); }
 }
+
+
+
+
+
+@media(max-width:768px){
+    .arrow{
+        display: none;
+    }
+        .about-visual {
+        height: 280px;
+        padding: 20px 10px;
+    }
+
+    .experience-card {
+        padding: 24px 20px;
+        border-radius: 18px;
+        width: 85%;
+        max-width: 260px;
+    }
+
+    .exp-number {
+        font-size: 2.8rem;
+    }
+
+    .exp-text {
+        font-size: 0.95rem;
+    }
+
+    .stack-item {
+        padding: 8px 14px;
+        font-size: 0.75rem;
+    }
+
+    /* Reposition floating tags */
+    .stack-item:nth-child(1) {
+        top: 10%;
+        left: -45%;
+    }
+
+    .stack-item:nth-child(2) {
+        bottom: 0%;
+        right: -40%;
+    }
+
+    .stack-item:nth-child(3) {
+        top: 12%;
+        right: -35%;
+    }
+    .roadmap-container{
+        display: none;
+    }
+    .roadmap{
+        margin-bottom: 400px;
+    }
+    .mobile-break {
+        display: inline;
+    }
+
+}
